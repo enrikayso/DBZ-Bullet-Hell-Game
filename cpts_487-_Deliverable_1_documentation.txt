@@ -1,0 +1,43 @@
+set = group of 1-5 enemies
+wave = group of 1 - 5 sets
+0:00- 0:17 : wave 1 - 1 set of type A 
+0:17- 0:48: wave 2 - 2 sets of type A, 2 sets of type B. Order: ABAB
+0:48- 1:15 : mid boss appears
+	sequence: -3 half circles of bullets at player.
+		  - move a short distance.
+		  -3 full circles of bullets at player.
+		  - move a short distance.
+		  -3 half circles of bullets at player.
+		  - move a short distance.
+		  -1 second of down time.
+
+1:17 - 1:34 : wave 3 - 3 sets of type A, all at a once, not firing, run towards bottom of screen
+1:36- 4:30: final boss appears, goes till dead or timer whichever is first.
+	all phases: every 1 second fires a circle of bullets.
+	phase 1 - every 3 seconds fires a group of bullets aimed at the player
+		- moves a short distance after each group is fired
+	phase 2 - every 3 second fires 3 lines with one aimed at the player
+		- moves a short distance after each group of line is fired.
+
+
+Game Details:
+Lives: Unlimited
+HP of mid boss: 50 - subject to change in playtesting
+HP of final boss: 200 - subject to change in playtesting
+HP of normal enemies: 1
+Damage of player: 1
+Rate of fire: 3 shots a second - subject to change
+
+Scoring: normal enemies:5 points 
+	 mid boss: 750 points
+	 final boss: 1000 points
+
+astetic:
+Dragon Ball Z:
+player - Goku
+invincible player - Saitama One Punch Man
+basic enemies - Saibamen
+	- different colors for different enemy types.
+mid boss - Frieza
+final boss - Vegeta
+background - Namek - scrolling if possible, green plains area
